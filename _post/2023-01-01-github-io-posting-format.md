@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "[Format] Github.io blog post markdown file"
 excerpt : " "
 layout: single
