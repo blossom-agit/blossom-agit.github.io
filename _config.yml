@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Blossom Agit" # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/images/profile.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Engineer, Data Science, AI"
   location         : "Seoul, Republic of Korea"
   links:
