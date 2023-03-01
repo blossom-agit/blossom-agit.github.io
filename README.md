@@ -1,2 +1,2 @@
 # Blossom Agit Blog
- - link : [Blog Link](blossom-agit.github.io)
+ - link : [Blog Link](https://blossom-agit.github.io/)
