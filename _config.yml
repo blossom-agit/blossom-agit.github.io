@@ -102,15 +102,18 @@ author:
   bio              : "Engineer, Data Science, AI"
   location         : "Seoul, Republic of Korea"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/blossom-agit"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.instagram.com/blossom.agit/"
+    - label: "Docker Hub"
+      icon: "fab fa-fw fa-docker"
+      url: "https://hub.docker.com/u/agits"  
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com"
 
 
 # Site Footer
