@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /blog
+permalink: /blossom-agit
 hidden: true
 header:
   overlay_color: "#5e616c"
