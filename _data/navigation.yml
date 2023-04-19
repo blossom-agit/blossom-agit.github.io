@@ -1,7 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about
+  - title: "Categories"
+    url: /categories
+  - title: "Collections"
+    url: /collection-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +14,27 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: Ideation
+    children: 
+      - title: "News"
+        url: /docs/news
+      - title: "Python"
+        url: /docs/books
+      - title: "References"
+        url: /docs/refs
+  - title: Program
+    children: 
+      - title: "Linux"
+        url: /docs/linux
+      - title: "Python"
+        url: /docs/python
+      - title: "Data Analytics"
+        url: /docs/data_analytics
+      - title: "Computer Vision"
+        url: /docs/computer_vision
+      - title: "Front End"
+        url: /docs/front_end
+      - title: "DevOps"
+        url: /docs/devops

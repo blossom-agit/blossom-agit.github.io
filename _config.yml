@@ -13,15 +13,15 @@ minimal_mistakes_skin    : "dark" # dark, contrast "default", "air", "aqua", "co
 locale                   : "en-US"
 title                    : "Blossom Agit"
 title_separator          : "-"
-subtitle                 : "Blossom Agit"
+subtitle                 : "Steady wins the race"
 name                     : &name "BlossomAgit" # &name is a YAML anchor which can be *referenced later
 description              : &description "Blossom Agit Blog."
-url                      : https://blossom-agit.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://blossom-agit.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/blog" # "/blossom-agit" # the subpath of your site, e.g. "/blog"
 repository               : # Github username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Blossom Agit" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 250
 comments:
@@ -84,8 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
+    - "https://twitter.com/BlossomAgit"
+    - "https://www.facebook.com/profile.php?id=100090613366015"
 
 # Analytics
 analytics:
@@ -114,6 +114,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com"
+  imgs:
+    - url: "https://www.buymeacoffee.com/blossomagit"
+      src: "https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png"
 
 
 # Site Footer

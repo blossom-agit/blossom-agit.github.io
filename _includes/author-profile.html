@@ -240,6 +240,18 @@
         </li>
       {% endif %}
 
+      {% if author.imgs %}
+        {% for img in author.imgs %}
+          {% if img.url and img.src %}
+            <li>
+              <a href="{{ img.url }}" rel="nofollow noopener noreferrer me"{% if img.url contains 'http' %} itemprop="sameAs"{% endif %}>
+                <img src="{{ img.src }}" style="width:142px; height:40px; margin-left:1%; margin-top:3%" alt="buymeacoffee" />
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
