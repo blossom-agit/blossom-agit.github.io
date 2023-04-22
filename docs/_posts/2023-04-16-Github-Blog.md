@@ -1,9 +1,10 @@
 ---
-title:  "How to setup Github.io blog"
+title: "How to setup Github.io blog"
 permalink: /docs/Github-Blog-Setup/
 search: false
 categories: 
   - Github
+  - docs
 last_modified_at: 2023-04-16T18:11:00-05:00
 ---
 

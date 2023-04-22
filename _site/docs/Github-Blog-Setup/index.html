@@ -9,6 +9,9 @@
   <head>
     <meta charset="utf-8">
 
+<!-- Add favicon.ico -->
+<link rel="icon" type="image/png" href="/assets/favicon.ico">
+
 <!-- begin _includes/seo.html --><title>How to setup Github.io blog - Blossom Agit</title>
 <meta name="description" content="This post should not appear in the search index because it has the following YAML Front Matter:">
 
@@ -117,7 +120,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--posts">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -133,16 +136,20 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="Blossom Agit"></a>
+        
         <a class="site-title" href="/">
           Blossom Agit
           <span class="site-subtitle">Steady wins the race</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about">About</a>
+              <a href="/home">Home</a>
             </li><li class="masthead__menu-item">
               <a href="/categories">Categories</a>
             </li><li class="masthead__menu-item">
-              <a href="/collection-archive/">Collections</a>
+              <a href="/collection-archive">Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">About</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -165,7 +172,42 @@
       
 
 
+  
+    
 
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#docs" itemprop="item"><span itemprop="name">Docs</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">How to setup Github.io blog</li>
+      
+    
+  </ol>
+</nav>
+
+  
 
 
 <div id="main" role="main">
@@ -284,7 +326,8 @@
           
         
       
-
+      
+      <hr>
       <!--
   <li>
     <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
@@ -301,46 +344,11 @@
 
 
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="How to setup Github.io blog">
-    <meta itemprop="description" content="This post should not appear in the search index because it has the following YAML Front Matter:">
-    <meta itemprop="datePublished" content="2023-04-16T00:00:00+09:00">
-    <meta itemprop="dateModified" content="2023-04-17T08:11:00+09:00">
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/docs/Github-Blog-Setup/" class="u-url" itemprop="url">How to setup Github.io blog
-</a>
-          </h1>
-          
-
-  <p class="page__meta">
+  <div class="archive">
     
-
+      <h1 id="page-title" class="page__title">How to setup Github.io blog</h1>
     
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
-        
-        <p>This post should not appear in the search index because it has the following YAML Front Matter:</p>
+    <p>This post should not appear in the search index because it has the following YAML Front Matter:</p>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span> <span class="no">false</span>
 </code></pre></div></div>
@@ -359,75 +367,128 @@
     <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
 </code></pre></div></div>
 
-        
-      </section>
 
-      <footer class="page__meta">
-        
-        
-
-
+<ul class="taxonomy__index">
   
-
-
   
+    <li>
+      <a href="#2023">
+        <strong>2023</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
 
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
-    <span itemprop="keywords">
+
+
+
+  <section id="2023" class="taxonomy__section">
+    <h2 class="archive__subtitle">2023</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <a href="/categories/#docs" class="page__taxonomy-item p-category" rel="tag">docs</a><span class="sep">, </span>
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/docs/Github-Blog-Setup/" rel="permalink">How to setup Github.io blog
+</a>
+      
+    </h2>
     
-      <a href="/categories/#github" class="page__taxonomy-item p-category" rel="tag">Github</a>
+
+  <p class="page__meta">
     
-    </span>
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-04-16T00:00:00+09:00">2023-04-16</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
   </p>
 
 
+    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+
+</p>
+  </article>
+</div>
+
+      
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-04-16">April 16, 2023</time></p>
 
-      </footer>
 
-      <section class="page__share">
-  
-    <h4 class="page__share-title">Share on</h4>
-  
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/docs/2023-01-01-github-io-posting-format/" rel="permalink">[Format] Github.io blog post markdown file
+</a>
+      
+    </h2>
+    
 
-  <a href="https://twitter.com/intent/tweet?via=twitter&text=How+to+setup+Github.io+blog%20http%3A%2F%2Flocalhost%3A4000%2Fdocs%2FGithub-Blog-Setup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-01-01T00:00:00+09:00">2023-01-01</time>
+      </span>
+    
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2FGithub-Blog-Setup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+    
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2FGithub-Blog-Setup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
-</section>
+    
+  </p>
 
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
 
       
     </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
 
-    
-  </article>
 
-  
-  
-    <div class="page__related">
-      <h2 class="page__related-title">You may also enjoy</h2>
-      <div class="grid__wrapper">
-        
-          
-            
-      </div>
-    </div>
-  
+  </div>
 </div>
-
     </div>
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
-  <div class="search-hits"></div></div>
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
 
       </div>
     
@@ -478,69 +539,11 @@
   <script src="/assets/js/main.min.js"></script>
 
 
-<!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
 
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: '',
-  apiKey: '',
-  indexName: '',
-  searchParameters: {
-    restrictSearchableAttributes: [
-      'title',
-      'content'
-    ]
-  }
-});
 
-const hitTemplate = function(hit) {
-  const url = hit.url;
-  const hightlight = hit._highlightResult;
-  const title = hightlight.title && hightlight.title.value  || "";
-  const content = hightlight.html && hightlight.html.value  || "";
-
-  return `
-    <div class="list__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
-        <div class="archive__item-excerpt" itemprop="description">${content}</div>
-      </article>
-    </div>
-  `;
-}
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-searchbar',
-    poweredBy: true,
-    placeholder: 'Enter your search term...'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.search-hits',
-    templates: {
-      item: hitTemplate,
-      empty: 'No results',
-    }
-  })
-);
-
-// Starting the search only when toggle is clicked
-$(document).ready(function () {
-  $(".search__toggle").on("click", function() {
-    if(!search.started) {
-      search.start();
-    }
-  });
-});
-</script>
-
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

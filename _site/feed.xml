@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-20T00:08:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blossom Agit</title><subtitle>Blossom Agit Blog.</subtitle><author><name>Blossom Agit</name></author><entry><title type="html">How to setup Github.io blog</title><link href="http://localhost:4000/docs/Github-Blog-Setup/" rel="alternate" type="text/html" title="How to setup Github.io blog" /><published>2023-04-16T00:00:00+09:00</published><updated>2023-04-17T08:11:00+09:00</updated><id>http://localhost:4000/docs/Github-Blog</id><content type="html" xml:base="http://localhost:4000/docs/Github-Blog-Setup/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-22T22:19:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blossom Agit</title><subtitle>Blossom Agit Blog.</subtitle><author><name>Blossom Agit</name></author><entry><title type="html">How to setup Github.io blog</title><link href="http://localhost:4000/docs/Github-Blog-Setup/" rel="alternate" type="text/html" title="How to setup Github.io blog" /><published>2023-04-16T00:00:00+09:00</published><updated>2023-04-17T08:11:00+09:00</updated><id>http://localhost:4000/docs/Github-Blog</id><content type="html" xml:base="http://localhost:4000/docs/Github-Blog-Setup/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -15,4 +15,28 @@
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;excluded-file.html&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2017-11-28-post-exclude-search.md&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;subdirectory/*.html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Blossom Agit</name></author><category term="docs" /><category term="Github" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Blossom Agit</name></author><category term="docs" /><category term="Github" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">[Format] Github.io blog post markdown file</title><link href="http://localhost:4000/posts/docs/2023-01-01-github-io-posting-format/" rel="alternate" type="text/html" title="[Format] Github.io blog post markdown file" /><published>2023-01-01T00:00:00+09:00</published><updated>2023-01-01T00:00:00+09:00</updated><id>http://localhost:4000/posts/docs/github-io-posting-format</id><content type="html" xml:base="http://localhost:4000/posts/docs/2023-01-01-github-io-posting-format/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;h2 id=&quot;1&quot;&gt;1.&lt;/h2&gt;
+
+&lt;h1 id=&quot;paste-an-image&quot;&gt;paste an image&lt;/h1&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img width=&quot;400&quot; alt=&quot;image&quot; src=&quot;https://user-images.githubusercontent.com/125583433/219710669-af129cfc-4870-47a2-998f-5ba8bf5866c0.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2&quot;&gt;2.&lt;/h2&gt;
+
+&lt;h1 id=&quot;callout&quot;&gt;callout&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Call out section&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;add-url-link&quot;&gt;add url link&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;blossom-agit.github.io&quot;&gt;BlossomAgit link URL&lt;/a&gt;
+—&lt;/p&gt;
+&lt;h2 id=&quot;3&quot;&gt;3.&lt;/h2&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;light grey box&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Blossom Agit</name></author><category term="docs" /><category term="Format" /><category term="Format" /><category term="Git" /><summary type="html"></summary></entry></feed>

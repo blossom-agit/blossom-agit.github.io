@@ -1,17 +1,15 @@
 # main links
 main:
-  - title: "About"
-    url: /about
+  - title: "Home"
+    url: /home
   - title: "Categories"
     url: /categories
   - title: "Collections"
-    url: /collection-archive/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /collection-archive
+  - title: "About"
+    url: /about
   # - title: "Sample Posts"
   #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
@@ -23,7 +21,7 @@ docs:
       - title: "Python"
         url: /docs/books
       - title: "References"
-        url: /docs/refs
+        url: /docs/references/
   - title: Program
     children: 
       - title: "Linux"
@@ -38,3 +36,27 @@ docs:
         url: /docs/front_end
       - title: "DevOps"
         url: /docs/devops
+
+# sidebar:
+#   title: "분류"
+#   nav: sidebar-tree
+
+sidebar-tree:
+  - title: "IT News"
+    children:
+      - title: "- Issue"
+        url: /categories/#issue
+      - title: "- Documents"
+        url: /categories/#docs
+  - title: "프로그래밍"
+    children:
+      - title: "- 알고리즘기초"
+        url: /categories/#base
+      - title: "- 데이터분석"
+        url: /categories/#analysis
+      - title: "- 이미지분석"
+        url: /categories/#image
+      - title: "- UI/UX"
+        url: /categories/#uiux
+  
+
