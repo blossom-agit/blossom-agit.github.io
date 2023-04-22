@@ -1,8 +1,14 @@
 var store = [{
         "title": "[Format] Github.io blog post markdown file",
-        "excerpt":"Overview   1.   paste an image        2.   callout     Call out section    add url link  BlossomAgit link URL —  3.   light grey box   ","categories": ["docs","Format"],
+        "excerpt":"Overview   1.   paste an image        2.   callout     Call out section    add url link  BlossomAgit link URL —  3.   light grey box   ","categories": ["Format"],
         "tags": ["Format","Git"],
-        "url": "/posts/docs/2023-01-01-github-io-posting-format/",
+        "url": "/posts/2023-01-01-github-io-posting-format/",
+        "teaser": null
+      },{
+        "title": "Reference Links",
+        "excerpt":" ","categories": ["link"],
+        "tags": ["linux","windows","python"],
+        "url": "/posts/2023-04-22-References/",
         "teaser": null
       },,{
     "title": "Page Not Found",
@@ -18,7 +24,7 @@ var store = [{
     "excerpt":" ","url": "http://localhost:4000/categories/"
   },{
     "title": "Posts by Collection",
-    "excerpt":"                      docs                                        pets                                        portfolio                                                               recipes                    ","url": "http://localhost:4000/collection-archive/"
+    "excerpt":"                      docs                                        pets                                        portfolio                                                                       recipes                    ","url": "http://localhost:4000/collection-archive/"
   },{
     "title": "Edge Case",
     "excerpt":"Sample post listing for the category Edge Case.  ","url": "http://localhost:4000/categories/edge-case/"

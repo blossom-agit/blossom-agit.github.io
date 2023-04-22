@@ -93,7 +93,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-YNL85MFPT6" # Replace this with your ID, or delete
+    tracking_id          : "G-1BKPH5QYMB" # Replace this with your ID, or delete
     anonymize_ip         : true
 
 
@@ -104,6 +104,9 @@ author:
   bio              : "Engineer, Data Science, AI"
   location         : "Seoul, Republic of Korea"
   links:
+    - label: "E-mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:blossom.agit@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/blossom-agit"
@@ -173,7 +176,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# Conversion - 코드영역 색감추가
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -181,7 +184,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+# Markdown Processing - 마크다운 시각화도구
 kramdown:
   input: GFM
   hard_wrap: false
@@ -285,7 +288,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Asia/Seoul # America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -326,16 +329,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # test
 # HTML Compression
