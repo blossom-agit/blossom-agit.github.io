@@ -10,34 +10,43 @@ main:
     url: /collection-archive
   - title: "About"
     url: /about
+  # - title: "Search"
+  #   url: /Search/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
 docs:
-  - title: Ideation
-    children: 
-      - title: "News"
-        url: /docs/news
-      - title: "Python"
-        url: /docs/books
-      - title: "References"
-        url: /docs/references/
-  - title: Program
-    children: 
-      - title: "Linux"
-        url: /docs/linux
-      - title: "Python"
-        url: /docs/python
-      - title: "Data Analytics"
-        url: /docs/data_analytics
-      - title: "Computer Vision"
-        url: /docs/computer_vision
-      - title: "Front End"
-        url: /docs/front_end
-      - title: "DevOps"
-        url: /docs/devops
+  - title : "대목차"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+        
+  # - title: Ideation
+  #   children: 
+  #     - title: "News"
+  #       url: /docs/news
+  #     - title: "Python"
+  #       url: /docs/books
+  #     - title: "References"
+  #       url: /docs/references/
+  # - title: Program
+  #   children: 
+  #     - title: "Linux"
+  #       url: /docs/linux
+  #     - title: "Python"
+  #       url: /docs/python
+  #     - title: "Data Analytics"
+  #       url: /docs/data_analytics
+  #     - title: "Computer Vision"
+  #       url: /docs/computer_vision
+  #     - title: "Front End"
+  #       url: /docs/front_end
+  #     - title: "DevOps"
+  #       url: /docs/devops
 
 # sidebar:
 #   title: "분류"

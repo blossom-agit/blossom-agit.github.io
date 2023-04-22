@@ -3,6 +3,9 @@ layout: single
 title: "Reference Links" 
 categories: link
 tags: [linux,windows,python]
+author_profile: false
+sidebar:
+  nav: "docs"
 toc: true
 ---
 
