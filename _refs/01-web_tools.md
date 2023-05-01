@@ -1,6 +1,16 @@
 ---
+layout: single
 title: "Reference Links"
-permalink: /docs/references/
+categories: ['refs']
+permalink: /refs/01_web_tools/
+excerpt: "Sorted Helpful reference links by keywords"
+# last_modified_at: 2021-06-07T08:48:05-04:00
+sidebar:
+  nav: "refs"
+toc: true
+---
+<!-- title: "Reference Links"
+permalink: /docs/docs_test_9/
 excerpt: "Helpful reference links by keywords"
 read_time: true # estimated read time
 show_date: true
@@ -18,7 +28,7 @@ last_modified_at: 2023-04-16T18:11:00-05:00
 #   - Git
 #   - docs
 # comments: true
----
+--- -->
 
 ## References
 

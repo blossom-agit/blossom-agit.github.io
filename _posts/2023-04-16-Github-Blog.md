@@ -1,11 +1,14 @@
 ---
+layout: single
+author_profile: true
 title: "How to setup Github.io blog"
 permalink: /docs/Github-Blog-Setup/
-search: false
+search: true
 categories: 
   - Github
   - docs
 last_modified_at: 2023-04-16T18:11:00-05:00
+comments: true
 ---
 
 This post should not appear in the search index because it has the following YAML Front Matter:

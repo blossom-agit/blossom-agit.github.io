@@ -102,7 +102,7 @@ author:
   name             : "Blossom Agit" # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/profile.jpg"
   bio              : "Engineer, Data Science, AI"
-  location         : "Seoul, Republic of Korea"
+  location         : "Seoul, South Korea"
   links:
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
@@ -116,9 +116,12 @@ author:
     - label: "Docker Hub"
       icon: "fab fa-fw fa-docker"
       url: "https://hub.docker.com/u/agits"  
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@BlossomAgit"  
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com"
   imgs:
     - url: "https://www.buymeacoffee.com/blossomagit"
       src: "https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png"
@@ -198,21 +201,27 @@ kramdown:
 
 # Collections
 collections:
+  cookies:
+    output: true
+    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
-  posts:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+  # posts:
+  #   output: true
+  #   permalink: /:collection/:path/
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
   pets:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  refs:
     output: true
     permalink: /:collection/:path/
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:path/
 
 
 # Defaults
@@ -245,11 +254,12 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
       share: false
       comments: false
-      related: true
+      sidebar:
+        nav: "docs"
   # _recipes
   - scope:
       path: ""
@@ -272,6 +282,14 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _refs
+  - scope:
+      path: ""
+      type: refs
     values:
       layout: single
       author_profile: false

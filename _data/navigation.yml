@@ -17,7 +17,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
+refs:
   - title : "대목차"
     children:
       - title: "Category"
@@ -69,5 +69,11 @@ sidebar-tree:
         url: /categories/#image
       - title: "- UI/UX"
         url: /categories/#uiux
+
+counts:
+  - title: "카테고리"
+    use: true
+  - title: "태그"
+    use: true
   
 
